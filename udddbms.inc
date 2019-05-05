@@ -28,7 +28,7 @@
 #define UDDDBMS_insert(%0,%1,%2) UDDDBMS_query(%0,"insert",%1,%2)
 #define udddbms_insert UDDDBMS_insert
 
-#define UDDDBMS_delete(%0,%1,%2) UDDDBMS_delete(%0,"delete",%1,%2)
+#define UDDDBMS_delete(%0,%1) UDDDBMS_delete(%0,"delete",%1)
 #define udddbms_delete UDDDBMS_delete
 
 static stock UDDDBMS_query(fileName[], query[], key[], value[])
